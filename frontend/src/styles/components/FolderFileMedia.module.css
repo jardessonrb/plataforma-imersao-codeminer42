@@ -1,0 +1,53 @@
+.containerContent{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background: var(--primary-color);
+}
+
+.containerContent .headerFolderFileMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 7.5rem;
+    padding-top: 0.5rem;
+    border-bottom: 0.1px solid var(--secundary-color);
+    cursor: pointer;
+}
+
+.containerContent .headerFolderFileMedia .icons{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    color: var(--white);
+}
+.containerContent .headerFolderFileMedia .progressModule{
+    margin-top: -1.8rem;
+    font-size: 1.2rem;
+}
+
+.containerContent .headerFolderFileMedia .informationModule{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerContent .headerFolderFileMedia .informationModule .nivelModule{
+    font-size: 1.2rem;
+    color: var(--orange);
+}
+
+.containerContent .headerFolderFileMedia .informationModule .nameModule{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.containerContent .mainFileVisible{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.1px solid var(--white);
+}
+
+.containerContent .mainFileInvisible{
+    display: none;
+}

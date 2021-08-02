@@ -1,0 +1,23 @@
+import { createContext, useContext, useState } from "react";
+
+export const TitleContext = createContext();
+
+const TitleProvider = ({ children }) => {
+  const [title, setTitle] = useState("titulo");
+
+  return (
+    <TitleContext.Provider
+      value={{
+        title,
+        changeTitle: () => setTitle("title"),
+        userName: "Lucas"
+      }}
+    >
+      {children}
+    </TitleContext.Provider>
+  );
+};
+
+const useTitle = () => useContext(TitleContext);
+
+export { TitleProvider, useTitle };

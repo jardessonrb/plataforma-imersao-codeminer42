@@ -1,0 +1,40 @@
+.containerContent{
+    width: 100%;
+}
+
+.containerContent:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: var(--primary-color-light);
+    border-bottom: 0.5px solid var(--secundary-color);
+}
+
+
+.containerContent .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.spanNameClassRoom{
+    color: var(--white);
+    max-width: 85%;
+    margin-left: 1rem;
+}
+
+.iconsCheck{
+    color: var(--white);
+    background-color: var(--green);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.iconCircle{
+    color: var(--white);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,45 @@
+.containerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    padding: 0.5rem;
+}
+.containerContent .dataCourseProgress{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+}
+
+.containerContent .dataCourseProgress .nameCourse{
+    font-size: 1.4rem;
+}
+
+.containerContent .dataCourseProgress .attendedClasses{
+    color: var(--primary-color-light);
+    font-size: 1.2rem;
+}
+
+
+.containerContent .circleProgress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 5.5rem;
+    border-radius: 50%;
+    border: 0.3rem solid var(--orange);
+
+}
+
+.containerContent .circleProgress span{
+    font-weight: bold;
+}
+
+
+
+
+
+
